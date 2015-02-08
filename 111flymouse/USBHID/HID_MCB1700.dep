@@ -1,0 +1,80 @@
+Dependencies for Project 'HID', Target 'MCB1700': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4C974790)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx --list ".\Lst\startup_LPC17xx.lst" --xref -o ".\Obj\startup_LPC17xx.o" --depend ".\Obj\startup_LPC17xx.d")
+F (.\system_LPC17xx.c)(0x4C974790)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\system_lpc17xx.o" --omf_browse ".\Obj\system_lpc17xx.crf" --depend ".\Obj\system_lpc17xx.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x508759DA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x53BE9BDB)
+F (.\usbcfg.h)(0x53BE9CC3)()
+F (.\usbcore.c)(0x4C974790)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I.\Lst -I.\Obj -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\usbcore.o" --omf_browse ".\Obj\usbcore.crf" --depend ".\Obj\usbcore.d")
+I (type.h)(0x4C974790)
+I (usb.h)(0x4C974790)
+I (usbcfg.h)(0x53BE9CC3)
+I (usbhw.h)(0x4C974790)
+I (usbcore.h)(0x4C974790)
+I (usbdesc.h)(0x4C974790)
+I (usbuser.h)(0x4C974790)
+I (hid.h)(0x4C974790)
+I (hiduser.h)(0x4C974790)
+F (.\usbdesc.c)(0x53CFC9A5)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I.\Lst -I.\Obj -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\usbdesc.o" --omf_browse ".\Obj\usbdesc.crf" --depend ".\Obj\usbdesc.d")
+I (type.h)(0x4C974790)
+I (usb.h)(0x4C974790)
+I (usbcfg.h)(0x53BE9CC3)
+I (usbdesc.h)(0x4C974790)
+I (hid.h)(0x4C974790)
+F (.\usbhw.c)(0x53D27D93)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I.\Lst -I.\Obj -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\usbhw.o" --omf_browse ".\Obj\usbhw.crf" --depend ".\Obj\usbhw.d")
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x508759DA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x53BE9BDB)
+I (type.h)(0x4C974790)
+I (usb.h)(0x4C974790)
+I (usbcfg.h)(0x53BE9CC3)
+I (usbreg.h)(0x4C974790)
+I (usbhw.h)(0x4C974790)
+I (usbcore.h)(0x4C974790)
+I (usbuser.h)(0x4C974790)
+F (.\usbuser.c)(0x53CE8597)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I.\Lst -I.\Obj -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\usbuser.o" --omf_browse ".\Obj\usbuser.crf" --depend ".\Obj\usbuser.d")
+I (type.h)(0x4C974790)
+I (usb.h)(0x4C974790)
+I (usbcfg.h)(0x53BE9CC3)
+I (usbhw.h)(0x4C974790)
+I (usbcore.h)(0x4C974790)
+I (usbuser.h)(0x4C974790)
+I (hiduser.h)(0x4C974790)
+I (demo.h)(0x52FCE7FB)
+F (.\hiduser.c)(0x52FCC64D)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I.\Lst -I.\Obj -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\hiduser.o" --omf_browse ".\Obj\hiduser.crf" --depend ".\Obj\hiduser.d")
+I (type.h)(0x4C974790)
+I (usb.h)(0x4C974790)
+I (hid.h)(0x4C974790)
+I (usbcfg.h)(0x53BE9CC3)
+I (usbcore.h)(0x4C974790)
+I (hiduser.h)(0x4C974790)
+I (usbhw.h)(0x4C974790)
+I (demo.h)(0x52FCE7FB)
+F (.\demo.c)(0x53EEF7B5)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I.\Lst -I.\Obj -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\demo.o" --omf_browse ".\Obj\demo.crf" --depend ".\Obj\demo.d")
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x508759DA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x53BE9BDB)
+I (type.h)(0x4C974790)
+I (usb.h)(0x4C974790)
+I (usbcfg.h)(0x53BE9CC3)
+I (usbhw.h)(0x4C974790)
+I (uart.h)(0x53CFE3F0)
+I (demo.h)(0x52FCE7FB)
+F (.\uart.c)(0x53D25900)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USBHID -I.\Lst -I.\Obj -I..\USBHID -I..\UART\Urat -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\uart.o" --omf_browse ".\Obj\uart.crf" --depend ".\Obj\uart.d")
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x53BE9BDB)
+I (uart.h)(0x53CFE3F0)
+F (.\Abstract.txt)(0x53686E1C)()

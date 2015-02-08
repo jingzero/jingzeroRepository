@@ -1,0 +1,24 @@
+					if(UART0Buffer[0]==0x55)
+					{
+						switch(UART0Buffer[1])
+							{
+								case 0x51:
+								accel[0]=(UART0Buffer[3]<<8| UART0Buffer[2])/32768.0*16;
+								accel[1]=(UART0Buffer[5]<<8|UART0Buffer[4])/32768.0*16;
+								accel[2]=(UART0Buffer[7]<<8|UART0Buffer[6])/32768.0*16;
+								Temple = (UART0Buffer[9]<<8|UART0Buffer[8])/340.0+36.25;
+								break;
+								case 0x52:
+								omiga[0] = (UART0Buffer[3]<<8| UART0Buffer[2])/32768.0*2000;
+								omiga[1] = (UART0Buffer[5]<<8| UART0Buffer[4])/32768.0*2000;
+								omiga[2] = (UART0Buffer[7]<<8| UART0Buffer[6])/32768.0*2000;
+								Temple = (UART0Buffer[9]<<8| UART0Buffer[8])/340.0+36.25;
+								break;
+								case 0x53:
+								angle[0] = (UART0Buffer[3]<<8| UART0Buffer[2])/32768.0*180;
+								angle[1] = (UART0Buffer[9]<<8| UART0Buffer[8])/32768.0*180;
+								angle[2] = (UART0Buffer[7]<<8| UART0Buffer[6])/32768.0*180;
+								Temple = (UART0Buffer[9]<<8| UART0Buffer[8])/340.0+36.25;
+								break;
+						 }
+				 }
